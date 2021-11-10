@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: #2CB3F3;
+}
+.intro{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 14.24vh;
+}
+.corpo{
+    width: 35vw;
+    height: 57vh;
+    background-color: white;
+    border-radius: 10vh 10vh 0 0;
+    position: relative;
+    top: 8vw;
+    left: 33vw;
+}
+.rosto{
+    width: 27vw;
+    height: 45vh;
+    background-color: #FFE1C9;
+    position: absolute;
+    bottom: 20vh;
+    left: 36.5vw;
+    border-radius: 50%;
+}
+.olho1{
+    width: 2.25vw;
+    height: 5vh;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 51vh;
+    left: 43vw;
+}
+.olho2{
+    width: 2.25vw;
+    height: 5vh;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 51vh;
+    left: 54vw;
+}
+.input1{    
+    position: absolute;
+    bottom: 35vh;
+    left: 42.5vw;
+    width: 15vw;
+    height: 6vh;
+}
+.input2{    
+    position: absolute;
+    bottom: 30vh;
+    left: 42.5vw;
+    width: 15vw;
+    height: 6vh;
+}
+.botao{
+    background-color: #55A603;
+    color: antiquewhite;
+    cursor: pointer;
+    position: absolute;
+    bottom: 3vh;
+    left: 45vw;
+    width: 10vw;
+    height: 8vh;
+    border-radius: 2vh;
+}
